@@ -1,0 +1,43 @@
+/*CSS DOCUMENT*/
+
+body {
+    background-color: rgb(170,220,230);
+}
+
+h1 {
+   
+    font-family: Futura;
+    font-size: 60px; 
+    color: rgb(0,100,240);
+    text-align: center;
+    border-bottom: 6px solid rgb(0,0,0);
+}
+h2 {
+    font-family: Helvetica;
+    font-size: 34px;
+    text-align: center;
+
+   
+}
+h3 {
+    font-family: courier;
+    font-size: 30px;
+    border-bottom: 4px dotted rgb(0,0,0);
+    padding-left: 0.5em;
+    
+
+}
+
+h4 {
+    font-family: Helvetica;
+    font-size: 20px;
+    color: rgb(100,0,170);
+    
+    
+}
+
+p {
+    font-family: Helvetica;
+    font-size: 14px;
+    color: rgb(0,100,0);
+}
