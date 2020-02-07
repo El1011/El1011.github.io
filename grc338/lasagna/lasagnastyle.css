@@ -1,0 +1,86 @@
+/*CSS DOCUMENT*/
+
+body{
+    background-color: #FFB973;
+}
+
+
+.container h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: Georgia;  
+
+}
+
+
+.container h2{
+    text-align: center;
+    font-family: Georgia;
+    font-style: italic;
+}
+
+
+div.intro{
+    text-align: center;
+    font-size: .9em;
+    font-style: italic;
+    font-family: Trebuchet MS;
+    
+}
+
+div.introimage{
+    text-align: center;
+}
+
+.introimage p{
+    text-align: center;
+}
+
+div.ingredients{
+    width: 40%;
+    float: left;
+    font-family: Georgia; 
+    
+}
+.ingredients h3{
+    font-size: 2em;
+    background-color: #FF9794;
+    margin-right: 1em;
+}
+
+.ingredients li{
+    margin-bottom: 1em;
+}
+
+div.directions{
+    width: 50%;
+    float: left;
+    margin-left: 5em;
+    font-family: Georgia; 
+
+}
+
+
+.directions h3{
+    font-size: 2em;
+    background-color: #FF9794;
+    margin-right: 3em;
+}
+
+.directions li{
+    margin-bottom: 1em;
+
+}
+
+
+img {
+width: 80%;
+}
+
+
+.container footer{ 
+padding-top: 2em;
+width: 50%;
+
+}
+
