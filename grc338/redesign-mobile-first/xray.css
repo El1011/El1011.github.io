@@ -50,8 +50,23 @@ ul {
     padding: 0em;
 }
 
-.info li {
-    font-size: 1em;
+.aboutpage li {
+    font-size: 2em;
+    margin-top: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    border-bottom: solid;
+    border-left: solid;
+    border-width: thin;
+  
+}
+
+.categories li {
+    font-size: 2em;
     padding-top: 1em;
     padding-bottom: 1em;
     justify-content: space-evenly;
@@ -59,18 +74,6 @@ ul {
     text-align: center;
     width: 100%;
     border-bottom: 2px solid black;
-}
-
-.categories li {
-    font-size: 1.5em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    justify-content: space-evenly;
-    list-style: none;
-    text-align: center;
-    width: 100%;
-    border-style: solid;
-    border-width: thin;
 }
 
 .orderlist li {
@@ -118,6 +121,12 @@ ul {
     padding-right: 1em;
     padding-bottom: 1em;
 }
+.contentTitle h3{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
 .thebest h2 {
     font-size: 2em;
 }
