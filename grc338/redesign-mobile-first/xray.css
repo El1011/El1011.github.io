@@ -1,6 +1,7 @@
 /*CSS DOCUMENT*/
 
-<meta name="viewport" content="width=device‑width, initial‑scale=1.0"> img {
+<meta name="viewport" content="width=device‑width, initial‑scale=1.0"> 
+img {
     width: 100%;
 }
 
@@ -12,16 +13,16 @@ img {
 
 a {
     text-decoration: none;
-    color: rgb(0, 0, 100);
+    color: rgb(0, 0, 75);
 }
 
 a:visited {
     text-decoration: none;
-    color: rgb(0, 0, 100);
+    color: rgb(0, 0, 75);
 }
 
 body {
-    background-color: rgb(0, 150, 200);
+    background-color: rgb(0, 175, 225);
 }
 
 header {
@@ -50,11 +51,27 @@ ul {
     padding: 0em;
 }
 
+@media only screen and (max-width:600px) {
+    ul {
+        display: block;
+    }   
+    
+    header {
+        padding-right: 1em;
+    }
+    
+    .aboutpage li {
+        font-size: 1em;
+        padding-top: 0em;
+        padding-bottom: 0em;
+    }
+}
+
 .aboutpage li {
     font-size: 2em;
     margin-top: 1em;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
     justify-content: space-evenly;
     list-style: none;
     width: 100%;
@@ -65,15 +82,16 @@ ul {
   
 }
 
+
 .categories li {
     font-size: 2em;
     padding-top: 1em;
     padding-bottom: 1em;
-    justify-content: space-evenly;
     list-style: none;
     text-align: center;
     width: 100%;
     border-bottom: 2px solid black;
+   
 }
 
 .orderlist li {
@@ -150,11 +168,7 @@ ul {
     width: 100%;
     padding-bottom: 2em;
 }
-.numbers h4 {
-    justify-content: space-evenly;
-    text-align: center;
-    width: 100%;
-}
+
 .products li {
     font-size: 3em;
     font-weight: bold;
@@ -172,16 +186,20 @@ ul {
     padding-right: 2em;
 }
 .call {
-    padding-top: 1em;
-    padding-bottom: 1em;
     list-style: none;
     justify-content: space-evenly;
     text-align: center;
 }
-.numbers h4 {
+
+.numbers p {
+    padding-bottom: 1em;
     color: rgb(0, 0, 0);
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
     line-height: 0em;
 }
+
 footer {
     text-align: center;
 }
