@@ -1,0 +1,201 @@
+/*CSS DOCUMENT*/
+
+<meta name="viewport" content="width=device‑width, initial‑scale=1.0"> 
+img {
+    width: 100%;
+}
+
+img {
+    padding: 1em;
+    width: 150px;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(20, 20, 100);
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(20, 20, 100);
+}
+
+body {
+    background-color: rgb(222,184,100);
+}
+
+header {
+    font-size: 2em;
+    text-align: right;
+    padding-right: 2em;
+    border-bottom: 2px solid black;
+}
+
+header h2 {
+    text-align: right;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    color: rgb(0, 0, 0);
+    font-family: Helvetica;
+}
+
+ul {
+    display: flex;
+    margin: 0em;
+    padding: 0em;
+}
+
+@media only screen and (max-width:600px) {
+    ul {
+        display: block;
+    }   
+    
+    header {
+        padding-right: 1em;
+    }
+    
+    .aboutpage li {
+        font-size: 1em;
+        padding-top: 0em;
+        padding-bottom: 0em;
+    }
+}
+
+.aboutpage li {
+    font-size: 2em;
+    margin-top: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    border-bottom: solid;
+    border-left: solid;
+    border-width: thin;
+  
+}
+
+
+.categories li {
+    font-size: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    border-bottom: 2px solid black;
+   
+}
+
+.orderlist li {
+    text-align: left;
+    padding-right: 2em;
+    width: 100%;
+}
+
+.suborder li {
+    margin-left: 1em;
+    width: 100%;
+}
+
+.slist li {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    justify-content: space-evenly;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+}
+
+.coolsites li {
+    padding: 1em, 1em, 1em, 1em;
+    justify-content: space-evenly;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    border-right: 2px solid black;
+}
+
+
+}
+.newitems li {
+    justify-content: space-evenly;
+    text-align: center;
+    list-style: none;
+}
+.about {
+    text-align: center;
+    padding: 1em;
+}
+.contentTitle {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+.contentTitle h3{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+.thebest h2 {
+    font-size: 2em;
+}
+.thebest h3 {
+    font-size: 1.5em;
+}
+.thebest p {
+    text-indent: 4em;
+    color: rgb(0, 0, 0);
+    padding-bottom: 1em;
+}
+.equipment li {
+    margin: 2em;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.allequip li {
+    font-size: 1.5em;
+    justify-content: space-evenly;
+    text-align: center;
+    list-style: none;
+    width: 100%;
+    padding-bottom: 2em;
+}
+
+.products li {
+    font-size: 3em;
+    font-weight: bold;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    justify-content: space-evenly;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+}
+
+.call {
+    list-style: none;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.numbers p {
+    padding-bottom: 1em;
+    color: rgb(0, 0, 0);
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    line-height: 0em;
+}
+
+footer {
+    text-align: center;
+}
