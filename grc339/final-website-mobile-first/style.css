@@ -18,8 +18,15 @@ figure {
     margin: 0;
 }
 
-img {
+header img {
     width: 100%;
+}
+
+figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 
 h1 {
@@ -28,8 +35,15 @@ h1 {
     margin-top: 0;
 }
 
-nav ul {
+nav {
     text-align: center;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    margin-bottom: 1em;
+    
+}
+
+nav ul {
     margin: 0;
     padding: 0.2em;
 }
@@ -40,11 +54,13 @@ nav ul li {
     padding-left: 0.5em;
     padding-right: 0.5em;
     font-family: Arial, sans-serif;
+    line-height: 200%;
 }
 
 nav ul li a {
     margin-left: auto;
     margin-right: auto;
+   
 }
 
 ul {
@@ -52,21 +68,33 @@ ul {
     padding: 0;
 }
 
+h3 {
+    text-align: center;
+    display: block;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family: Arial, sans-serif;
+}
 
-
+p {
+    margin-top: 0;
+    font-family: Arial, sans-serif;
+}
 
 
 figcaption {
-    padding-bottom: 1.2em;
-    color: #565657;
-    
+    padding-bottom: 1em;
+    padding-top: 0.5em;
 }
 
-.teaser1 {
+.teaser {
     border-top: 2px solid;
+    padding-bottom: 2em;
 }
 
 footer {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
     text-align: center;
     padding-top: 0.5em;
     margin-top: 2.5em;
