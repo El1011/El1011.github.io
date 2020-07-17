@@ -94,13 +94,12 @@ footer {
 }
 
 div.gallery-container {
-    background-color: #fafafa;
     max-width: 60em;
     margin: 0 auto;
     padding: 1em;
 }
 
-div.gallery-main main figure img {
+div.gallery-main img {
     width: 80%;
 }
 
@@ -111,15 +110,15 @@ div.gallery-main main figure img {
 }
 
 .gallery-main figure {
+    margin: 0;
     width: calc(100%-2em);
     position: absolute;
     opacity: 0;
     transition: opacity 0.5s;
 }
 .gallery-main figcaption {
-    font-size: 1.2em;
     font-weight: bold;
-    margin: 1em 0;
+    margin: 2em;
 }
 
 input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
@@ -133,12 +132,17 @@ input:nth-of-type(8):checked ~ main figure:nth-of-type(8) {
     opacity: 1;
 }
 
+div.photo-nav {
+    margin-top: 3em;
+}
+
 .photo-nav img {
-    width: 75%;
+    width: 100%;
 }
 .photo-nav nav {
+    margin-top: 2em;
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 0.2em;
 }
 
