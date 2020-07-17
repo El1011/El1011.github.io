@@ -101,6 +101,7 @@ div.gallery-container {
 
 div.gallery-main img {
     width: 80%;
+    
 }
 
 .gallery-main main {
@@ -117,6 +118,7 @@ div.gallery-main img {
     transition: opacity 0.5s;
 }
 .gallery-main figcaption {
+    font-size: 1.5em;
     font-weight: bold;
     margin: 2em;
 }
