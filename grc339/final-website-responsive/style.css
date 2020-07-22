@@ -9,22 +9,27 @@ a {
 }
 
 div.container {
-    max-width: 40em;
+    max-width: 70em;
     margin: auto;
 }
 
-figure {
-    margin: 0;
+section {
+    max-width: 40em;
+    margin: 0 auto;
 }
 
-header img {
-    width: 100%;
+figure {
+    margin: 0em;
+}
+
+img.container {
+    width: 70%;
+    margin: auto;
 }
 
 figure img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 100%;
 }
 
@@ -145,3 +150,37 @@ nav.gallery  {
 input {
     display: none;
 }
+
+
+
+
+@media screen and (min-width: 60em){
+    
+    div.container {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 0 1em;
+    }
+    
+    header {
+        grid-column: 1/3;
+    }
+    
+
+    main {
+        grid-column: 1/2;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 0 1em;
+    }
+    
+    section.mainstory {
+        grid-column: 1/4;
+        grid-row: 1/3;
+    }
+    
+    
+
+}
+
+
